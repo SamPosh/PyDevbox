@@ -69,6 +69,8 @@ return {
     vim.keymap.set('n', '<leader>B', function()
       dap.set_breakpoint(vim.fn.input 'Breakpoint condition: ')
     end)
+    
+    -- toggle to see last session result. Without this ,you can't see session output in case of unhandled exception.
     vim.keymap.set("n", "<F7>", dapui.toggle)
     
     -- Debug breakpoint will be in color
@@ -96,6 +98,7 @@ return {
           step_back = "",
           run_last = "↻",
           terminate = "□",
+          disconnect = "⏏",
         },
       },
     }
