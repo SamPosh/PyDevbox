@@ -19,7 +19,7 @@ return {
                 "--print-with", "80"
               },
               filetypes = {
-                "typescript", "typescriptreact", "javascript", "vue"
+                "typescript", "typescriptreact", "javascript", "vue","json","yaml"
               },
             }),
         },
