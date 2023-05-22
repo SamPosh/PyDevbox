@@ -38,9 +38,11 @@ Space + sf - Search files( Fuzzy finder) equal to Ctrl+p in vscode
 Space + sw - Search words in file (Equal to Ctrl+shift+f in vscode)
 zR - Expand all fold
 zM - Collapse all folds (we can also use mouse as ufo plugin is installed)
+gp - goto preview in floating window
+gP - close the goto preview floating window
 
 :NeoTree will open the file tree (or) Ctrl+b
-:Format will format the python file with black format 
+:Format will format the python file with black format (Need to install black using command :MasonInstall black)
 :only this will close other except current file
 
 
