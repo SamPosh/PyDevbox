@@ -40,6 +40,7 @@ zR - Expand all fold
 zM - Collapse all folds (we can also use mouse as ufo plugin is installed)
 gp - goto preview in floating window
 gP - close the goto preview floating window
+Ctrl+e - to open file explorer (Neotree)
 
 :NeoTree will open the file tree (or) Ctrl+b
 :Format will format the python file with black format (Need to install black using command :MasonInstall black)
@@ -94,7 +95,6 @@ Using Fira code font
 ## Few VSCode bindings are done
 ```
 Debugger key binding are like vscode`
-Ctrl+b will toggle neotree(which is file explorer)
 Ctrl+j will toggle terminal (using toggleterm)
 ```
 
