@@ -433,6 +433,7 @@ local servers = {
       }
     }
     },
+  jsonls ={},
   -- rust_analyzer = {},
   -- tsserver = {},
 
